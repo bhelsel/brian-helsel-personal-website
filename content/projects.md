@@ -3,7 +3,7 @@
 1. **Estimating walking intensity in adults with Down syndrome using a portable accelerometer**
   + *Role*: Principal Investigator
   
-  + *Funding*: Clinical and Translational Science Award (CTSA) grant from the National Center for Advancing Translational Sciences (NCATS) awarded to Frontiers: University of Kansas Clinical and Translational Science Institute ([TL1TR002368](Frontiers))
+  + *Funding*: Clinical and Translational Science Award (CTSA) grant from the National Center for Advancing Translational Sciences (NCATS) awarded to Frontiers: University of Kansas Clinical and Translational Science Institute (<a href="https://reporter.nih.gov/search/MuqfCa20d0eAL1EjLNtJcw/project-details/10210460"> TL1TR002368 </a>)
   
   + *Project Summary*: This research provides a first step in developing strategies for the use of portable accelerometers in the evaluation of ambulatory physical activity with adults who have Down syndrome. The aims of this research are to develop and compare activity intensity cut-points, i.e., light (1.1-2.9 METs), moderate (3.0-6.0 METs), and vigorous (> 6.0 METs), for walking using vertical axis counts, vector magnitude counts, and gravitational units using established protocols for raw accelerometer data analysis (Euclidean Norm Minus One, Mean Amplitude Deviation, and the Physical Activity Index) for accelerometers worn at the non-dominant hip and both wrists. This information will be useful for future research designed to evaluate strategies for increasing walking behavior or for evaluating the association between walking and health outcomes in adults with Down syndrome.
 
@@ -11,7 +11,7 @@
 
   + *Role*: Postdoctoral Research Fellow and Research Assistant
   
-  + *Funding*: Funded by the National Institutes of Health (PI: Ptomey; [R01AG063909](Brain Power))
+  + *Funding*: Funded by the National Institutes of Health (PI: Ptomey; <a href="https://reporter.nih.gov/search/Z7knvETl3ESOMeUqy9kO3Q/project-details/10144917"> R01AG063909 </a>)
   
   + *Project Summary*: This is an early-stage clinical trial in 80 non-demented adults with DS to determine the feasibility and potential efficacy of remotely delivered group MVPA sessions to increase daily physical activity, relative to a usual care control, and to determine the impact of physical activity on the development of Alzheimer’s Disease.
 
@@ -29,7 +29,7 @@
 
   + *Role*: Postdoctoral Research Fellow and Study Coordinator.
   
-  + *Funding*: National Institute of Health (PI: Ptomey; [R01AG061187](M2G)).
+  + *Funding*: National Institute of Health (PI: Ptomey; <a href="https://reporter.nih.gov/search/Yj-MitQH60SkmUEnBIc0Ng/project-details/10198748"> R01AG061187 </a>)
   
   + *Project Summary*: Adults with Alzheimer’s disease (AD) and their caregivers represent a sizeable and underserved segment of the population with low levels of moderate physical activity (MPA). Available evidence suggests that regular MPA can improve mobility, performance of activities of daily living, general cognition, and balance in adults with AD. Additionally, MPA may reduce the risk of development of AD and improve health and well-being in caregivers. An intervention delivered remotely via real-time video conferencing to groups of adults with AD and their caregivers in their homes (RGV), represents a potentially effective approach for increasing MPA in this group. This approach eliminates the need for transportation to a medical clinic or other community facility, and offers the potential for peer support and socialization, which may be important for initiation and maintenance of MPA. This grant compares the effectiveness of the RVG approach with usual care, enhanced with caregiver support (EUC), for increasing MPA in adults with mild to moderate AD and their caregiver (dyads).
 
@@ -37,12 +37,9 @@
 
   + *Role*: Postdoctoral Research Fellow and Research Assistant
   
-  + *Funding*: Funded by the National Institutes of Health (PI: Ptomey; [R01HD094704](Jaylive))
+  + *Funding*: Funded by the National Institutes of Health (PI: Ptomey; <a href="https://reporter.nih.gov/search/UmeKTIvWK0ap4e1zqm2TOQ/project-details/10172955"> R01HD094704 </a>)
   
   + *Project Summary*: This study will compare changes in objectively assessed MVPA in adolescents with IDD randomized to a single level intervention delivered to the adolescent only or a multi-level intervention delivered to both the adolescent and a parent.
 
-[Frontiers]: https://reporter.nih.gov/search/MuqfCa20d0eAL1EjLNtJcw/project-details/10210460 "Frontiers"
-[Brain Power]: https://reporter.nih.gov/search/Z7knvETl3ESOMeUqy9kO3Q/project-details/10144917 "Brain Power"
-[M2G]: https://reporter.nih.gov/search/Yj-MitQH60SkmUEnBIc0Ng/project-details/10198748 "M2G"
-[Jaylive]: https://reporter.nih.gov/search/UmeKTIvWK0ap4e1zqm2TOQ/project-details/10172955 "Jaylive"
+
 
