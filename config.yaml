@@ -1,6 +1,6 @@
 baseurl: /
 languageCode: en-us
-title: A Hugo website
+title: Brian Helsel's Website
 theme: hugo-lithium
 googleAnalytics: ''
 disqusShortname: ''
@@ -14,16 +14,27 @@ permalinks:
   post: /:year/:month/:day/:slug/
 menu:
   main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Blog
+      url: /post/
+      weight: 5
     - name: About
       url: /about/
+      weight: 2
     - name: Publications
       url: /publications/
+      weight: 3
     - name: Projects
       url: /projects/
+      weight: 4
     - name: GitHub
       url: https://github.com/bhelsel
+      weight: 7
     - name: Twitter
       url: https://twitter.com/bchelsel
+      weight: 6
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
