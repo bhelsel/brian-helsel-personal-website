@@ -17,9 +17,6 @@ menu:
     - name: Home
       url: /
       weight: 1
-    - name: Blog
-      url: /post/
-      weight: 5
     - name: About
       url: /about/
       weight: 2
@@ -29,12 +26,18 @@ menu:
     - name: Projects
       url: /projects/
       weight: 4
+    - name: Blog
+      url: /post/
+      weight: 5
+    - name: Resources
+      url: /resources/
+      weight: 6
     - name: GitHub
       url: https://github.com/bhelsel
-      weight: 7
+      weight: 8
     - name: Twitter
       url: https://twitter.com/bchelsel
-      weight: 6
+      weight: 7
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
