@@ -2,7 +2,7 @@ baseurl: /
 languageCode: en-us
 title: Brian Helsel's Website
 theme: hugo-lithium
-googleAnalytics: ''
+googleAnalytics: 'G-KW1X55P4YQ'
 disqusShortname: 'https-brianhelsel-netlify-app'
 ignoreFiles:
   - \.Rmd$

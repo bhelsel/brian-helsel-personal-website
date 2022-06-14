@@ -80,7 +80,9 @@ raw %>%
 
 ```
 
+# Conclusion
 
+It's a fairly simple package, but I hope that you will find it useful within your workflow. If you have any problems, feel free to comment below or add an issue on the agcounts <a href = "https://github.com/bhelsel/agcounts/issues">GitHub page</a>.
 
 
 
