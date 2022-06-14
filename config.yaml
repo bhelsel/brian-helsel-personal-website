@@ -3,7 +3,7 @@ languageCode: en-us
 title: Brian Helsel's Website
 theme: hugo-lithium
 googleAnalytics: ''
-disqusShortname: ''
+disqusShortname: 'https-brianhelsel-netlify-app'
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
