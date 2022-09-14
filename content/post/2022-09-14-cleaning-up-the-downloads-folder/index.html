@@ -1,0 +1,75 @@
+---
+title: Cleaning up the Downloads Folder
+author: Brian Helsel
+date: '2022-09-14'
+slug: cleaning-up-the-downloads-folder
+categories: []
+tags: []
+---
+
+
+
+<div id="a-task-automation-function-in-r" class="section level1">
+<h1>A task automation function in R</h1>
+<div id="the-problem" class="section level3">
+<h3>The Problem</h3>
+<p>Staying organized is a hard task! I often find myself trying new ways to
+organize emails, documents, or information. One folder on my computer that I
+often left untouched was my downloads folder. However, this weekend I decided to
+create a function in R that could quickly sort document types that I wanted to
+keep and remove document types that I didn’t want on my computer. For example, I
+often download research articles in a PDF format that sometimes are not
+immediately organized and remain in my downloads folder. They are then buried
+under reference files (e.g., PubMed, EndNote), Word documents, etc. until I can
+no longer find them quickly. Conversely, I’m not as interested in keeping file
+types such as zip or EndNote, but I don’t generally delete them from my
+downloads folder.</p>
+</div>
+<div id="the-solution" class="section level3">
+<h3>The Solution</h3>
+<p>I decided this weekend that I would write a function in R that would sort my
+downloads folder by file type and remove any file types that I didn’t want to
+keep. File types that I use and want to keep often (e.g., Word documents,
+images, PDF documents, etc.) can be placed in <code>allowed_files</code> within the
+function while all other file types will be removed. Additionally, the function
+has an argument called <code>allowed_filetypes</code> that can be used to add file types to
+the embedded <code>allowed_files</code> list. The function creates a folder for each
+document type and then transfers the documents to their respective folder. The
+function can be modified for your use by adding in or removing additional file
+types within the function or even changing the directory so that this can be
+applied to a different folder. The function as it is written below is on my <a
+href = "https://github.com/bhelsel/bhelselR/blob/master/R/utilities.R"> GitHub
+page</a> and can be installed via <code>devtools::install_github(bhelsel/bhelselR)</code>.</p>
+</div>
+<div id="the-function" class="section level3">
+<h3>The Function</h3>
+<pre class="r"><code>sort_files_in_downloads &lt;- function(allowed_filetypes = NULL){
+
+  allowed_files &lt;- c(&quot;docx&quot;, &quot;pdf&quot;, &quot;pptx&quot;, &quot;html&quot;, &quot;mov&quot;, &quot;jpeg&quot;,
+                     &quot;jpg&quot;, &quot;png&quot;, &quot;xls&quot;, &quot;xlsx&quot;, &quot;doc&quot;, &quot;csv&quot;)
+
+  if(!is.null(allowed_filetypes)){
+    allowed_files &lt;- c(allowed_files, allowed_filetypes)
+  }
+
+  # Sort and clean the documents in my downloads folder
+  files &lt;- list.files(&quot;~/Downloads&quot;, full.names = TRUE)
+
+  # Create folders from allowed file types
+  ext &lt;- unique(tools::file_ext(files))
+  ext &lt;- ext[ext %in% allowed_files]
+  invisible(sapply(paste0(&quot;~/Downloads&quot;, &quot;/&quot;, ext), function(x) if(!dir.exists(x)) dir.create(x)))
+
+  # Prepare and move files from allowed file types
+  files2move &lt;- files[grepl(&quot;[.]&quot;, files) &amp; tools::file_ext(files) %in% allowed_files]
+  newpaths &lt;- paste0(dirname(files2move), &quot;/&quot;, tools::file_ext(files2move), &quot;/&quot;, basename(files2move))
+  invisible(file.copy(from = files2move, to = newpaths))
+  invisible(file.remove(files2move))
+
+  # Remove files that are not in allowed file types
+  files2delete &lt;- files[grepl(&quot;[.]&quot;, files) &amp; !files %in% files2move]
+  file.remove(files2delete)
+
+}</code></pre>
+</div>
+</div>
