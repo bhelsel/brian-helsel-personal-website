@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "helsel-website"
+  title: "Brian's Website"
   navbar:
     left:
       - href: index.qmd
@@ -16,4 +16,4 @@ format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
+    toc: false
