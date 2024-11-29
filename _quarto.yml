@@ -2,8 +2,9 @@ project:
   type: website
 
 website:
-  title: "Brian's Website"
   navbar:
+    title: Helsel Data Consulting
+    logo: images/hc-logo.svg
     left:
       - href: index.qmd
         text: Home
@@ -17,3 +18,4 @@ format:
     theme: cosmo
     css: styles.css
     toc: false
+    title-block-banner: true

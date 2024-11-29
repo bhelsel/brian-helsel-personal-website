@@ -1,1 +1,54 @@
 /* css styles */
+
+#quarto-content{
+    background-color: #f9e9de;
+}
+
+.navbar {
+    height: 75px;
+    background-color: #ffffff;
+}
+
+.navbar-logo {
+    height: 50px !important;
+    width: 50px !important;
+    max-width: unset !important;
+    max-height: unset !important;
+}
+
+.navbar-brand-container {
+    height: 75px;
+}
+
+.navbar a {
+    color: #000000;
+}
+
+.navbar a.active {
+    color: #000080;
+    font-weight: bold;
+}
+
+.navbar :hover{
+    color: #ff7f50;
+}
+
+.quarto-title-banner.page-columns.page-full {
+    background-color: #000080;
+}
+
+#title-block-header {
+    background-color: #ff7f50;
+    margin-bottom: 0px;
+}
+
+h1.title {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.subtitle {
+    color: #ff7f50;
+    font-weight: bold;
+    font-style: italic;
+}

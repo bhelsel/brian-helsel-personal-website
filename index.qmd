@@ -1,6 +1,8 @@
 ---
-title: "Brian's Personal Website"
+title: "Data Science for Fitness and Sport"
+subtitle: "Generating Insightful Analytics for Active Lifestyles"
 ---
+
 # Welcome!
 
 <img alt = 'Picture of my family' width='30%' src="/images/HelselFamily.jpg" style="float: right; margin-left: 30px;"> 
